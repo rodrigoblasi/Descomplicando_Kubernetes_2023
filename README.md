@@ -10,5 +10,8 @@
 ## Changelog
 
 ### 10.12.2023
-- **Commit inicial**: Criação do repositorio, finalizado day-1, adicionadas anotações sobre o desafio do dia 1.
+# Changelog
 
+- **Commit inicial**: *Criação do repositorio, finalizado day-1, adicionadas anotações sobre o desafio do dia 1.*
+
+- **26.01.2024**: *Finalizados estudos do day-02, adicionadas anotações sobre o desafio do day-02.*
