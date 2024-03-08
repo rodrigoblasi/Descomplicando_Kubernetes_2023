@@ -65,10 +65,10 @@ spec:
 Agora, se você estiver enfrentando problemas, basta rodar este comando direto no terminal e seu desafio estará completo e finalizado em 5 segundos.
 ```bash
 {
-  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" \
-  && sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl \
-  && kubectl version --client \
-  && cat <<EOL > pod.yaml
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" && \
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl && \
+kubectl version --client && \
+cat <<EOL > pod.yaml
 apiVersion: v1
 kind: Pod
 metadata:
